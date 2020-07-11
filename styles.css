@@ -37,7 +37,22 @@ aside {
 footer {
     border: 2px solid purple;
 }
-
+.welcomeContainer{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    content: "";
+}
+.welcomeContainer::after{
+    /* content: "aoewijaw;eofiawe;ofi"; */
+    background-image: url("./imgs/gmk_Serika.png");
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left:0;
+    z-index: -1;
+}
 /* .div1class {
 border: 2px solid blue;
 font-size : 20px;
