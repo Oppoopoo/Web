@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="stylesheet" href="./styles.css">
+    <script>
+        // 위치1번.. DOM 요소를 접근할 일이 없고 가장 바르게 실행하고 싶은 경우에 위치
+        // 위치 1,2,3번은 https://sub0709.tistory.com/73을 참고하여 작성하였음.
+        function displayResult(){
+            document.getElementById("tempID").innerHTML = "Have a nice day!";
+            //위치 2번.. 화면을 블록할 요소가 있어서 화면 로딩에 영향없이 실행하고 싶을때의 위치
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제목 설정입니다~</title>
+    
+</head>
+<body>
+    <header><h1>NEWS</h1></header>
+    <nav>
+        <ol>
+            <li>정치</li>
+            <li>연예</li>
+            <li><a href="articles/foreign.html">해외</a></li>
+        </ol>
+    </nav>
+    <section id="hottopic">
+        <article id="news1">
+            <h1>Amazon tells employees to remove TikTok from their devices immediately</h1>
+            <p>Amazon has instructed its employees to remove the short-video app TikTok from their devices immediately, according to a person familiar with the matter.</p>
+            <p>In an email sent to employees Friday morning and obtained by CNN, Amazon (AMZN) said that due to "security risks, the TikTok app is no longer permitted on mobile devices that access Amazon email."</p>
+            <p>Accessing TikTok from company laptops is still permitted, the email said, but mobile devices will be cut off from Amazon email unless the app is removed.</p>
+        </article>
+        <article id="news2">
+            <h1>Amazon tells employees to remove TikTok from their devices immediately</h1>
+            <p>Amazon has instructed its employees to remove the short-video app TikTok from their devices immediately, according to a person familiar with the matter.</p>
+            <p>In an email sent to employees Friday morning and obtained by CNN, Amazon (AMZN) said that due to "security risks, the TikTok app is no longer permitted on mobile devices that access Amazon email."</p>
+            <p>Accessing TikTok from company laptops is still permitted, the email said, but mobile devices will be cut off from Amazon email unless the app is removed.</p>
+        </article>
+    </section>
+
+    <aside>
+        <!-- 부차적인 내용을 담는 태그, article안쪽이나 바깥등 근처에있어야함 -->
+        <!-- 만약 article 안쪽에 넣을것이라면, 해당 article과 관계있는 내용이어야함(ex 인용문구) -->
+        <!-- 만약 article 바깥쪽에 넣을것이라면, 전체 웹페이지와 관계있는 내용이어야함(ex 트리뷰) -->
+        <!--화면 우측으로 빼야함. -->
+        관련광고
+    </aside>
+    <footer>© 2020 Cable News Network.Turner Broadcasting System, Inc.All Rights Reserved.
+        CNN Sans ™ & © 2016 Cable News Network.</footer>
+
+    <script>
+        //3번위치.. 가장 빠르게 DOM에 접근하고 싶은경우.. 모든 DOM 요소가 파싱 된 후에 실행되는 부분에 넣어준다.
+    </script>
+</body>
+</html>

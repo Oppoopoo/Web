@@ -1,0 +1,51 @@
+/* body {
+    background-color: powderblue;
+}
+h1 {
+color: blue;
+}
+p {
+color: red;
+padding: 30px;
+}
+table {
+width: 100%;
+border: 1px solid #444444;
+border-collapse: collapse;
+}
+th, td, tr {
+border: 1px solid #444444;
+} */
+div {
+    border: 2px solid red;
+}
+header {
+    border: 2px solid orange;
+}
+nav {
+    border: 2px solid yellow;
+}
+section {
+    border: 2px solid green;
+}
+article {
+    border: 2px solid blue;
+}
+aside {
+    border: 2px solid navy;
+}
+footer {
+    border: 2px solid purple;
+}
+
+/* .div1class {
+border: 2px solid blue;
+font-size : 20px;
+}
+.city {
+background-color: tomato;
+color: white;
+border: 2px solid black;
+margin: 20px;
+padding: 10px;
+} */
